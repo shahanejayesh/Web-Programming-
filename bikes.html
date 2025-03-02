@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Image Gallery</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px; /* Fixed height for consistency */
+            object-fit: cover; /* Crop/resize to fit */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+  </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/2549941/pexels-photo-2549941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 1">
+        <img src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 2">
+        <img src="https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 3">
+        <img src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 4">
+        <img src="https://images.pexels.com/photos/1715184/pexels-photo-1715184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 5">
+        <img src="https://images.pexels.com/photos/819805/pexels-photo-819805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 6">
+        <img src="https://images.pexels.com/photos/750841/pexels-photo-750841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 7">
+        <img src="https://images.pexels.com/photos/1119796/pexels-photo-1119796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 8">
+        <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 9">
+        <img src="https://images.pexels.com/photos/2393818/pexels-photo-2393818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 10">
+        <img src="https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 11">
+        <img src="https://images.pexels.com/photos/529782/pexels-photo-529782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 12">
+        <img src="https://images.pexels.com/photos/1033116/pexels-photo-1033116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 13">
+        <img src="https://images.pexels.com/photos/2393821/pexels-photo-2393821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 14">
+        <img src="https://images.pexels.com/photos/716906/pexels-photo-716906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 15">
+        <img src="https://images.pexels.com/photos/2377893/pexels-photo-2377893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 16">
+        <img src="https://images.pexels.com/photos/750817/pexels-photo-750817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 17">
+        <img src="https://images.pexels.com/photos/564094/pexels-photo-564094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 18">
+        <img src="https://images.pexels.com/photos/115145/pexels-photo-115145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 19">
+        <img src="https://images.pexels.com/photos/217872/pexels-photo-217872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 20">
+        <img src="https://images.pexels.com/photos/2747793/pexels-photo-2747793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 21">
+        <img src="https://images.pexels.com/photos/1192332/pexels-photo-1192332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 22">
+        <img src="https://images.pexels.com/photos/34006/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 23">
+        <img src="https://images.pexels.com/photos/1715193/pexels-photo-1715193.jpeg" alt="Bike 24">
+        <img src="https://images.pexels.com/photos/1430931/pexels-photo-1430931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 25">
+        <img src="https://images.pexels.com/photos/67557/dirt-bike-motorcycle-exhaust-67557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 26">
+        <img src="https://images.pexels.com/photos/1715185/pexels-photo-1715185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 27">
+        <img src="https://images.pexels.com/photos/163210/motorcycles-race-helmets-pilots-163210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 28">
+        <img src="https://images.pexels.com/photos/163789/sky-road-travel-trip-163789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 29">
+        <img src="https://images.pexels.com/photos/2611675/pexels-photo-2611675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 30">
+        <img src="https://images.pexels.com/photos/52538/motorcycle-motor-cylinder-technology-52538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 31">
+        <img src="https://images.pexels.com/photos/159443/motorcycle-motor-chrome-vehicle-159443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 32">
+        <img src="https://images.pexels.com/photos/1119796/pexels-photo-1119796.jpeg" alt="Bike 33">
+        <img src="https://images.pexels.com/photos/1715185/pexels-photo-1715185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 34">
+        <img src="https://images.pexels.com/photos/46224/harley-davidson-motorcycles-chrome-shiny-46224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 35">
+        <img src="https://images.pexels.com/photos/2549942/pexels-photo-2549942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 36">
+        <img src="https://images.pexels.com/photos/19101/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 37">
+        <img src="https://images.pexels.com/photos/595806/pexels-photo-595806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 38">
+        <img src="https://images.pexels.com/photos/2885326/pexels-photo-2885326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 39">
+        <img src="https://images.pexels.com/photos/1289500/pexels-photo-1289500.jpeg" alt="Bike 40">
+        <img src="https://images.pexels.com/photos/2611684/pexels-photo-2611684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 41">
+        <img src="https://images.pexels.com/photos/564098/pexels-photo-564098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 42">
+        <img src="https://images.pexels.com/photos/2526135/pexels-photo-2526135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 43">
+        <img src="https://images.pexels.com/photos/60163/pexels-photo-60163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 44">
+        <img src="https://images.pexels.com/photos/1289539/pexels-photo-1289539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 45">
+        <img src="https://images.pexels.com/photos/217869/pexels-photo-217869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 46">
+        <img src="https://images.pexels.com/photos/67557/dirt-bike-motorcycle-exhaust-67557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 47">
+        <img src="https://images.pexels.com/photos/2549939/pexels-photo-2549939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 48">
+        <img src="https://images.pexels.com/photos/4577733/pexels-photo-4577733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 49">
+        <img src="https://images.pexels.com/photos/34535/lorenzo-jorge-moto-gp-motorcycle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bike 50">
+    </div>
+</body>
+</html>
